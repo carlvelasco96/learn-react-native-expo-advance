@@ -7,7 +7,7 @@ const PrimaryButton = ({
   onPress,
 }: {
   children: ReactNode;
-  onPress(obj: any): any;
+  onPress?(obj: any): any;
 }) => {
   return (
     <View style={styles.buttonOuterContainer}>
